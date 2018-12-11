@@ -32,6 +32,14 @@
       <artifactId>sampleLoginModule</artifactId>
       <version>0.0.1-SNAPSHOT</version>
     </dependency>
+
+      <dependency>
+          <groupId>security.jaas.test</groupId>
+          <artifactId>prox</artifactId>
+          <version>0.0.1-SNAPSHOT</version>
+      </dependency>
+
+
   </dependencies>
 
   <build>
@@ -47,7 +55,7 @@
                   <!-- MainClass in mainfest make a executable jar -->
                   <archive>
                       <manifest>
-                          <mainClass>security.jaas.test.JustLogin</mainClass>
+                          <mainClass>security.jaas.test.LoginAndAuthorize</mainClass>
                       </manifest>
                   </archive>
               </configuration>
